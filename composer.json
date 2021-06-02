@@ -1,0 +1,19 @@
+{
+    "name": "juancrrn/carrier",
+    "description": "Carrier PHP framework.",
+    "authors": [
+        {
+            "name": "Juan Carrión",
+            "email": "hola@juancrrn.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Juancrrn\\Carrier\\": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.4",
+        "mpdf/mpdf": "^8.0"
+    }
+}
