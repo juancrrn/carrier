@@ -2,11 +2,12 @@
 
 namespace Juancrrn\Carrier\Common\Controller;
 
-use Juancrrn\Carrier\Common\App;
-use Juancrrn\Carrier\Common\Controller\Controller;
-use Juancrrn\Carrier\Common\Controller\RouteGroupModel;
-use Juancrrn\Carrier\Common\View\Self\ProfileView;
+use Carrier\Common\App;
+use Carrier\Common\Controller\Controller;
+use Carrier\Common\Controller\RouteGroupModel;
+
 use Juancrrn\Carrier\Domain\StaticForm\Auth\LogoutForm;
+use Juancrrn\Lyra\Common\View\Self\ProfileView;
 
 /**
  * Logged-in route group
@@ -33,7 +34,7 @@ class LoggedInRouteGroup implements RouteGroupModel
         $viewManager = App::getSingleton()->getViewManagerInstance();
         
         // Logout (form POST)
-        $this->controllerInstance->post('/auth/logout/', function () use ($viewManager) {
+        $this->controllerInstance->post('/auth/logout/', function () {
             (new LogoutForm('/auth/logout/'))->handle();
         });
         

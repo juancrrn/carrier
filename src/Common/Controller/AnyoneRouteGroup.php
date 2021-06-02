@@ -2,15 +2,16 @@
 
 namespace Juancrrn\Carrier\Common\Controller;
 
-use Juancrrn\Carrier\Common\App;
-use Juancrrn\Carrier\Common\Controller\Controller;
-use Juancrrn\Carrier\Common\Controller\RouteGroupModel;
+use Carrier\Common\App;
+use Carrier\Common\Controller\Controller;
+use Carrier\Common\Controller\RouteGroupModel;
+
 use Juancrrn\Carrier\Common\View\Auth\LoginView;
 use Juancrrn\Carrier\Common\View\Auth\PasswordResetProcessView;
 use Juancrrn\Carrier\Common\View\Auth\PasswordResetRequestView;
-use Juancrrn\Carrier\Common\View\Error\Error404View;
 use Juancrrn\Carrier\Common\View\Home\DashboardView;
 use Juancrrn\Carrier\Common\View\Home\HomeView;
+use Juancrrn\Carrier\Domain\View\Error\Error404View;
 
 /**
  * Anyone route group

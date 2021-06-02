@@ -2,8 +2,8 @@
 
 namespace Juancrrn\Carrier\Common\View\Auth;
 
-use Juancrrn\Carrier\Common\App;
-use Juancrrn\Carrier\Common\View\ViewModel;
+use Carrier\Common\App;
+use Carrier\Common\View\ViewModel;
 use Juancrrn\Carrier\Domain\StaticForm\Auth\LoginForm;
 
 /**

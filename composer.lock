@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83fab3502dfb16b3038d8ffb5472cd79",
+    "content-hash": "7f304a7020d8935bfc4dfaea84049463",
     "packages": [
+        {
+            "name": "juancrrn/carrier-core",
+            "version": "0.0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/juancrrn/carrier-core.git",
+                "reference": "4a3786e4c52885f89fb372e1acadcb9f11e83ed5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/juancrrn/carrier-core/zipball/4a3786e4c52885f89fb372e1acadcb9f11e83ed5",
+                "reference": "4a3786e4c52885f89fb372e1acadcb9f11e83ed5",
+                "shasum": ""
+            },
+            "require": {
+                "mpdf/mpdf": "^8.0",
+                "php": "^8.0",
+                "phpmailer/phpmailer": "^6.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Carrier\\": "src/Carrier/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Juan Carrión",
+                    "email": "hola@juancrrn.io"
+                }
+            ],
+            "description": "Carrier PHP framework core functionality and source.",
+            "support": {
+                "source": "https://github.com/juancrrn/carrier-core/tree/0.0.1",
+                "issues": "https://github.com/juancrrn/carrier-core/issues"
+            },
+            "time": "2021-06-02T15:27:32+00:00"
+        },
         {
             "name": "mpdf/mpdf",
             "version": "v8.0.11",
@@ -83,7 +122,7 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.10.2",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
@@ -106,6 +145,7 @@
                 "doctrine/common": "^2.6",
                 "phpunit/phpunit": "^7.1"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -267,7 +307,7 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
@@ -282,6 +322,7 @@
             "require": {
                 "php": ">=5.3.0"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -390,7 +431,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,

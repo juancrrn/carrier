@@ -12,8 +12,16 @@
             "Juancrrn\\Carrier\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/juancrrn/carrier-core"
+        }
+    ],
     "require": {
+        "juancrrn/carrier-core": "^0.0.1",
         "phpmailer/phpmailer": "^6.4",
         "mpdf/mpdf": "^8.0"
-    }
+    },
+    "minimum-stability": "dev"
 }

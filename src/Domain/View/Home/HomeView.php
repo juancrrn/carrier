@@ -2,11 +2,11 @@
 
 namespace Juancrrn\Carrier\Common\View\Home;
 
-use Juancrrn\Carrier\Common\App;
-use Juancrrn\Carrier\Common\View\ViewModel;
+use Carrier\Common\App;
+use Carrier\Common\View\ViewModel;
 
 /**
- * Dashboard (logged-in home) view
+ * Home view
  * 
  * @package carrier
  *
@@ -15,12 +15,12 @@ use Juancrrn\Carrier\Common\View\ViewModel;
  * @version 0.0.1
  */
 
-class DashboardView extends ViewModel
+class HomeView extends ViewModel
 {
 
-    private const VIEW_RESOURCE_FILE    = 'views/home/view_dashboard';
+    private const VIEW_RESOURCE_FILE    = 'views/home/view_home';
     public  const VIEW_NAME             = 'Inicio';
-    public  const VIEW_ID               = 'dashboard';
+    public  const VIEW_ID               = 'home';
     public  const VIEW_ROUTE            = '/?';
 
     public function __construct()
