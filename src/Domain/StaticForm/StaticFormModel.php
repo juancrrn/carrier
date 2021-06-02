@@ -48,7 +48,7 @@ abstract class StaticFormModel
      * @var string CSRF_PREFIX           CSRF prefix for $_SESSION storing.
      * @var string CSRF_TOKEN_FIELD      CSRF token field name.
      */
-    private const CSRF_PREFIX = 'lyra_csrf';
+    private const CSRF_PREFIX = 'carrier_csrf';
     private const CSRF_TOKEN_FIELD = 'csrf-token';
 
     /**

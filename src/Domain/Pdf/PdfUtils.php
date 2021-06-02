@@ -109,7 +109,7 @@ class PdfUtils
             )
         ));
 
-        $mpdf->Output('lyra-solicitud-registro-usuario.pdf', Destination::INLINE);
+        $mpdf->Output('carrier-solicitud-registro-usuario.pdf', Destination::INLINE);
     }
 
 	/**

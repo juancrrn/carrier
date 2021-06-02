@@ -82,7 +82,7 @@ class User implements JsonSerializable
     /**
      * Fecha de nacimiento.
      * 
-     * En formato Juancrrn\Lyra\Common\CommonUtils::MYSQL_DATE_FORMAT.
+     * En formato Juancrrn\Carrier\Common\CommonUtils::MYSQL_DATE_FORMAT.
      * 
      * @var DateTime $birthDate
      */
@@ -121,7 +121,7 @@ class User implements JsonSerializable
     /**
      * Fecha y hora de registro.
      * 
-     * En formato Juancrrn\Lyra\Common\CommonUtils::MYSQL_DATETIME_FORMAT.
+     * En formato Juancrrn\Carrier\Common\CommonUtils::MYSQL_DATETIME_FORMAT.
      * 
      * @var DateTime $registrationDate
      */
@@ -130,7 +130,7 @@ class User implements JsonSerializable
     /**
      * Fecha y hora del último inicio de sesión.
      * 
-     * En formato Juancrrn\Lyra\Common\CommonUtils::MYSQL_DATETIME_FORMAT.
+     * En formato Juancrrn\Carrier\Common\CommonUtils::MYSQL_DATETIME_FORMAT.
      * 
      * Puede ser null si el usuario nunca ha iniciado sesión.
      * 

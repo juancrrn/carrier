@@ -44,7 +44,7 @@ class ViewManager
     /**
      * Valor de $_SESSION donde se almacenan los mensajes.
      */
-    private const SESSION_MESSAGES = 'lyra_session_messages';
+    private const SESSION_MESSAGES = 'carrier_session_messages';
 
     /**
      * Array de elementos plantilla (<template>).

@@ -7,7 +7,7 @@ namespace Juancrrn\Carrier\Domain;
  * 
  * @package carrier
  *
- * @author lyra
+ * @author carrier
  *
  * @version 0.0.1
  */
